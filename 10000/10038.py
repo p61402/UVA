@@ -20,6 +20,3 @@ while True:
         print("Jolly")
     else:
         print("Not jolly")
-
-    #print(num_list)
-    #print(difference_list)
