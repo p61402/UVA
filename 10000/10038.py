@@ -1,7 +1,4 @@
-"""
-Ranking	Submission	Run Time	Language	Submission Date
-21429	19090564	0.160	    PYTH3	    2017-04-01 12:05:49
-"""
+#Run Time: 0.160
 while True:
     try:
         num = input()
