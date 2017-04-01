@@ -1,7 +1,4 @@
-"""
-#		    Problem	            Language	Run Time	Submission Date
-19090932	496	Simply Subsets	PYTH3	    0.020	    2017-04-01 13:14:25
-"""
+#Run Time: 0.020
 while True:
     try:
         list_A = input().split()
