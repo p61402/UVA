@@ -1,7 +1,4 @@
-"""
-Ranking	Submission	Run Time	Language	Submission Date
-3471	19089566	0.040	    PYTH3	    2017-04-01 08:06:45
-"""
+#Run Time: 0.040
 from collections import OrderedDict
 
 numOfcases = int(input())
