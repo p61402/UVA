@@ -1,7 +1,4 @@
-"""
-Ranking	Submission	Run Time	Language	Submission Date
-4242	19085230	0.000	    PYTH3	    2017-03-31 13:59:52
-"""
+#Run Time: 0.000
 numOfcases = int(input())
 
 for i in range(numOfcases):
