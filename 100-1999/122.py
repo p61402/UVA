@@ -57,15 +57,16 @@ a = []
 while True:
     try:
         input_line = input()
-        new_input_line = input_line.replace('(', ' ').replace(')', ' ').replace(',', ' ').split()
-        a.extend(new_input_line)
-        for i in range(len(a) - 1):
-            if a[i].isdigit() and a[i+1].isdigit():
-                a.insert(i+1, "T")
-        if a[-1].isdigit():
-            a.append("T")
     except EOFError:
         break
+
+    new_input_line = input_line.replace('(', ' ').replace(')', ' ').replace(',', ' ').split()
+    a.extend(new_input_line)
+    for i in range(len(a) - 1):
+        if a[i].isdigit() and a[i + 1].isdigit():
+            a.insert(i + 1, "T")
+    if a[-1].isdigit():
+        a.append("T")
 
     if input_line[-2] + input_line[-1] == "()":
         keys = a[::2]
