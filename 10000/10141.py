@@ -1,3 +1,4 @@
+# Run Time: 0.010
 def find_compliant():
     for key, value in proposal_item_dict.items():
         if len(value) == number_of_requirement:
