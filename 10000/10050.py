@@ -1,3 +1,4 @@
+# Run Time: 0.010
 def main():
     test_cases = int(input())
 
