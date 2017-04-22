@@ -8,7 +8,6 @@ int hexa_list[] = { 0, 1, 1, 2, 1, 2, 2, 3, 1, 2 };
 int dec_to_bin_and_count_one(int n)
 {
 	int numOfones = 1;
-	int temp;
 
 	while (n != 1)
 	{
