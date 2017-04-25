@@ -47,12 +47,8 @@ int main()
 		}
 
 		if (count_carry > 0)
-		{
 			if (count_carry > 1)
-			{
-				cout << count_carry << " carry operations.\n";
-			}			else			{				cout << "1 carry operation.\n";			}
-		}		else		{			cout << "No carry operation.\n";		}
+				cout << count_carry << " carry operations.\n";			else				cout << "1 carry operation.\n";		else			cout << "No carry operation.\n";
 	}
 
 	return 0;
