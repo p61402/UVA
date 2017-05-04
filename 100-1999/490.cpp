@@ -1,4 +1,4 @@
-// Run Time: 0.020
+// Run Time: 0.000
 #include <iostream>
 #include <string>
 using namespace std;
