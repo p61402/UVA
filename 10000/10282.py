@@ -1,4 +1,4 @@
-# Run Time: 0.020
+# Run Time: 0.650
 def main():
     dictionary = {}
     while True:
