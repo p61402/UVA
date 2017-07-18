@@ -1,2 +1,3 @@
 # UVa
-All the codes are wrote by C++ or python.
+
+All the code is written in C ++ or python.
