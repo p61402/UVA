@@ -1,3 +1,4 @@
+# Run Time: 1.210
 def main():
     stack = []
     test_case = int(input())
